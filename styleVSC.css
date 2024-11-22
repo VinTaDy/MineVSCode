@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #dcdcdc;
+}
+
+header {
+    background-color: #007acc;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+
+.bg {
+    padding: 20px;
+}
+
+.BGblock {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #252526;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.plugin:hover {
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.plugin {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #007acc;
+    border-radius: 5px;
+}
+
+.plugin h2 {
+    color: #007acc;
+}
+
+.plugin a {
+    color: #00b0ff;
+    text-decoration: none;
+}
+
+.plugin a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007acc;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.return-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #007acc;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+
+.return-btn:hover {
+    padding: 13px;
+    background-color: #048ae3;
+    transition: background-color 0.3s ease,padding 0.5s ease, transform 0.2s ease;
+    animation: 3s ease;
+}
+
+.plugin:hover {
+    background-color: #333;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+    transition: all 0.3s ease; 
+}
+
+

@@ -1,0 +1,96 @@
+/* фон */
+body {
+    background-color: rgb(50, 150, 100);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Фон блока */
+.bg {
+    background-color: rgb(108, 108, 108);
+    font-family: Arial, sans-serif;
+    min-height: 97vh;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    background-color: #088000;
+    color: #ffffff;
+    padding: 25px;
+    text-align: center;
+    
+}
+
+header {
+    box-shadow: 1px 1px 10px;
+}
+
+/* мод */
+.download, .download2 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.download:hover, .download2:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Текст */
+.BP, .AE2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Кнопки скачать */
+.download-btn1, .download-btn2, .download-btn3 {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(66, 135, 245);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn1:hover, .download-btn2:hover, .download-btn3:hover {
+    background-color: rgb(44, 105, 200);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* главное меню */
+.return-btn {
+    display: block;
+    background-color: rgb(255, 87, 51);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px auto;
+    width: max-content;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.return-btn:hover {
+    background-color: rgb(200, 60, 40);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
